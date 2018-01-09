@@ -1,8 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
+import Canvas from './canvas';
+
 const App = () => (
-  <div> Sup fam
+  <div>
+    <Canvas />
   </div>
 )
 
